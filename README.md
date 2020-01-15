@@ -10,15 +10,15 @@ Admittedly, the buffer management is not very robust, but it's a very handy plug
 Use your plugin manager of choice.
 
 - [Pathogen](https://github.com/tpope/vim-pathogen)
-  - `git clone https://github.com/DanManN/vim-razer ~/.vim/bundle/vim-razer`
+  - `git clone https://github.com/DanManN/JavaDecompiler-vim ~/.vim/bundle/JavaDecompiler-vim`
 - [Vundle](https://github.com/gmarik/vundle)
-  - Add `Bundle 'https://github.com/DanManN/vim-razer'` to .vimrc
+  - Add `Bundle 'https://github.com/DanManN/JavaDecompiler-vim'` to .vimrc
   - Run `:BundleInstall`
 - [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  - Add `NeoBundle 'https://github.com/DanManN/vim-razer'` to .vimrc
+  - Add `NeoBundle 'https://github.com/DanManN/JavaDecompiler-vim'` to .vimrc
   - Run `:NeoBundleInstall`
 - [vim-plug](https://github.com/junegunn/vim-plug)
-  - Add `Plug 'https://github.com/DanManN/vim-razer'` to .vimrc
+  - Add `Plug 'https://github.com/DanManN/JavaDecompiler-vim'` to .vimrc
   - Run `:PlugInstall`
 
 Then set `g:javad_cmd` to a command that decompiles a .class file as input. e.g.
